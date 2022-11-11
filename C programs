@@ -1,0 +1,158 @@
+//progarm 10
+//Write a program to find the greates number between three numbers given by the user.
+
+// #include<stdio.h>
+
+// void main()
+// {
+//     int x,y,z;
+//     printf("Entre the first number:-");
+//     scanf("%d",&x);
+
+//     printf("Entre the second number:-");
+//     scanf("%d",&y);
+
+//     printf("Entre the third number:-");
+//     scanf("%d",&z);
+
+//     if((x>y) && (x>z))
+//     {
+//         printf("X is the gretest number%d",x);
+//     }
+    
+//     else if ((y>x) && (y>z))
+//     {
+//         /* code */
+//         printf("Y is gretest number%d",y);
+
+//     }    
+//     else if ((x==y) && (y==z))
+//     {
+//         printf("Numbers are equal.");
+//     }
+//     else
+//     {
+//         printf("Z is gretest number%d",z);
+//     }
+
+// }
+
+
+// write a program to check odd or even no.
+
+// C program for the above approach
+
+// #include <stdio.h>
+
+// void main()
+// {
+//     int i;
+//     printf("Entre the number:-");
+//     scanf("%d",i);
+
+//     if ((i%2==0))
+//     {
+//         printf("Odd number");
+//     }
+
+//     else
+//     {
+//         printf("Even Number");
+//     }
+// }
+
+// Ajay Dureja Sir contact number :- 9355024938
+// write a program to iput a number and pring the table of given no.
+
+// #include <stdio.h>  
+// int main()  
+// {  
+//     int num, i;  
+//     printf (" Enter a number: ");  
+//     scanf (" %d", &num);   
+      
+      
+//     printf ("\n Table of %d", num);    
+//     for ( i = 1; i <= 10; i++)  
+//     {  
+//         printf ("\n %d * %d = %d", num, i, (num*i));  
+//     }  
+//     return 0;  
+
+
+// }  
+
+
+
+//program 14
+//write a program to calculate the salary of three persons if the basic salary is input through the keyboard.
+// House rent and dearness allowence is 90% and 10% of the basic salary. Calculate gross salary of all 3 persons.
+
+// #include<stdio.h>
+// int main()
+// {
+//     float basic_sal, dallowance, house_rent, gross_sal;
+//     printf("Enter Basic Salary: ");
+//     scanf("%f",&basic_sal);
+
+//     dallowance = 0.9 * basic_sal;
+//     house_rent = 0.1 * basic_sal;
+
+//     gross_sal = basic_sal + dallowance + house_rent;
+
+//     printf("\n Basic Salary: %.2f",  basic_sal);
+//     printf("\n Dearness Allowance: %.2f", dallowance);
+//     printf("\n House Rent: %.2f", house_rent);
+//     printf("\n\n Gross Salary: %.2f", gross_sal);
+
+    
+//     return (0);
+// }
+
+
+//program 15
+//Write a program to check wheather the input no is prime or not.
+
+// #include<stdio.h>
+
+// void main()
+// {
+//     int num,count=0;
+//     printf("Entre the Number:-");
+//     scanf("%d",&num);
+
+//     for (int i=1;i<=num;i++)
+//     {
+//         if(num%i==0)
+//         {
+//             count++;
+//         }
+//     }
+//         if (count>2)
+//         {
+//         /* code */
+//         printf("It is not a prime number");
+//         }
+//         else{
+//             printf("Prime Number");
+//         }
+    
+// }
+
+//program 16 <(very important)>
+//write a program to calculate factorial of a given number using control statement.
+#include<stdio.h>
+
+int main()  
+{  
+ int factorial=1,num;  
+ printf("Enter a number:-");  
+  scanf("%d",&num);  
+    for(int i=1;i<=num;i++)
+    {  
+      factorial=factorial*i;  
+    }  
+  printf("Factorial of %d is: %d",num,factorial);  
+return 0;
+} 
+
